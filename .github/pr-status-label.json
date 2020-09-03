@@ -1,6 +1,6 @@
 {
-  "requiredStatusRegex": ".*required.*",
-  "pendingStatusRegex": ".*pending.*",
-  "successStatusRegex": ".*success.*",
-  "errorStatusRegex": ".*error.*"
+  "requiredStatusRegex": "^(.*required.*)$",
+  "pendingStatusRegex": "^(.*pending.*)$",
+  "successStatusRegex": "^(.*success.*)$",
+  "errorStatusRegex": "^(.*error.*)$"
 }
