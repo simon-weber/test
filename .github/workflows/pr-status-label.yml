@@ -8,6 +8,8 @@ jobs:
   check_pr_milestone:
     runs-on: ubuntu-latest
     steps:
+      - name: Git checkout
+        uses: actions/checkout@v2
       - uses: cchantep/probot-pr-status-label@ghaction-1.0.x
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
