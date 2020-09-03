@@ -11,3 +11,4 @@ jobs:
       - uses: cchantep/probot-pr-status-label@ghaction-1.0.x
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          LOG_LEVEL: debug
