@@ -1,6 +1,6 @@
 {
-  "requiredStatusRegex": "^:[^:]+: ([^:]+):required$",
-  "pendingStatusRegex": "^:[^:]+: ([^:]+):pending$",
-  "successStatusRegex": "^:[^:]+: ([^:]+):(?:ok|success)$",
-  "errorStatusRegex": "^:[^:]+: ([^:]+):(ko|error)$"
+  "requiredStatusRegex": ".*required.*",
+  "pendingStatusRegex": ".*pending.*",
+  "successStatusRegex": ".*success.*",
+  "errorStatusRegex": ".*error.*"
 }
