@@ -16,5 +16,5 @@ jobs:
     steps:
       - uses: docker://agilepathway/pull-request-label-checker:latest
         with:
-          none_of: do-not-merge
+          none_of: do not merge
           repo_token: ${{ secrets.GITHUB_TOKEN }}
